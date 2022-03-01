@@ -1,24 +1,24 @@
-# ComandosDocker
-Alguns comandos principais para iniciar a aplicação docker
+# ComandosDocker<br />
+Alguns comandos principais para iniciar a aplicação docker<br />
 
-docker stop [id]
-docker run --help
-docker run -it ubuntu
-docker pull ubuntu
-docker run ubuntu
-apt update
-apt upgrade -y
-apt -y install 
+docker stop [id]<br />
+docker run --help<br />
+docker run -it ubuntu<br />
+docker pull ubuntu<br />
+docker run ubuntu<br />
+apt update<br />
+apt upgrade -y<br />
+apt -y install <br />
 
 Procedimento de instalação https://docs.docker.com/engine/install/ubuntu/
 
 *****************************************************
 
-Instalando as imagens - (UBUNTO)
-Siga os passos. 
-- docker pull ubuntu
+Instalando as imagens - (UBUNTO)<br />
+Siga os passos. <br />
+- docker pull ubuntu<br />
 
-A mensagem que deve aparecer é a seguinte.
+A mensagem que deve aparecer é a seguinte.<br />
 
 seu_usuario@DESKTOP-AVGRC2I:~$ docker pull ubuntu<br />
 Using default tag: latest<br />
