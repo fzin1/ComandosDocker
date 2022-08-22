@@ -128,7 +128,7 @@ root@7e83fc7d43d3:/#<br />
 ****************************************************************
 
 docker run -dti ubuntu<br />
-Este comendo executa a applicação em background<br />
+Este comando executa a applicação em background<br />
 Você pode sair do conteineres mas ele continuarar em execução.<br />
 
 ****************************************************************
@@ -140,6 +140,18 @@ root@334e22716115:/# <br />
 
 
 ****************************************************************
+Esqueceu a senha do PORTAINER.
+stop the existing Portainer container
+docker container stop portainer
+
+run the helper using the same bind-mount/volume for the data volume
+docker run --rm -v portainer_data:/data portainer/helper-reset-password
+2020/06/04 00:13:58 Password succesfully updated for user: admin
+2020/06/04 00:13:58 Use the following password to login: &_4#\3^5V8vLTd)E"NWiJBs26G*9HPl1
+
+restart portainer and use the password above to login
+docker container start portainer
+***********************************************
 
 
 Após o comando anterior, basta usar o comando LS para verificar que você já esta dentro do container <br />
